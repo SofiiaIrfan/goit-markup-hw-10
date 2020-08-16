@@ -1,0 +1,51 @@
+/*NEWSLATTER section*/
+.newslatter {
+    background-image: url('../images/newslatter/bg2.png'),
+      url('../images/newslatter/backround-1.jpg');
+    padding-bottom: 135px;
+    padding-top: 100px;
+  }
+  /*newslatter__title->NEWSLATTER section*/
+  .newslatter__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newslatter__name::after {
+    content: '';
+    background-image: url('../images/section-line.png');
+  }
+  
+  .newslatter__text {
+    display: flex;
+    font-family: $additional-font;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  /*newslatter__content->NEWSLATTER section*/
+  
+  .newslatter__content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .newslatter__input {
+    height: 60px;
+    width: 445px;
+    padding: 0px;
+    border-radius: 6px;
+  }
+  
+  .newslatter__button {
+    padding: 0px;
+    height: 60px;
+    width: 90px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-image: url('../images/newslatter/button.png');
+  }

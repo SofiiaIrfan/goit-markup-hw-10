@@ -1,0 +1,20 @@
+.titles {
+    display: block;
+    color: $h2-color;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0px;
+    text-align: center;
+    &::after {
+      display: block;
+      content: '';
+      background-image: url('../images/section-title.png');
+      height: 15px;
+      width: 164px;
+      margin-bottom: 80px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

@@ -1,0 +1,40 @@
+/*new-collection section*/
+/*new-collection__title->new-collection section*/
+.new-collection {
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  /*new-collection__content->new-collection section*/
+  .new-collection__item {
+    display: block;
+    width: 255px;
+    height: 320px;
+    margin-right: 30px;
+    position: relative;
+    overflow: hidden;
+    &:hover .overlay::before {
+      transform: translateY(0);
+      transition: transform $animation-time linear;
+    }
+    &:hover .action {
+      opacity: 1;
+      transition: opacity $animation-time linear 250ms;
+    }
+    &:nth-child(4n) {
+      margin-right: 0px;
+    }
+    &:hover .desc-product__name,
+    &:focus .desc-product__name {
+      background-color: $h3-choice-background-color;
+    }
+    &:hover .desc-product__price,
+    &:focus .desc-product__price {
+      background-color: $price-choice-background-color;
+    }
+  }
+  
+  .item-newCollection__image {
+    width: 255px;
+    height: 280px;
+  }

@@ -1,0 +1,47 @@
+/*about section*/
+.about__list {
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 94px;
+    padding-left: 0px;
+  }
+  
+  .about__item {
+    display: block;
+    width: 255px;
+    text-align: center;
+    margin-right: 30px;
+    list-style-type: none;
+    &:nth-child(4n) {
+      margin-right: 0px;
+    }
+  }
+  
+  .about__icon {
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: #1abc9c;
+  }
+  
+  .about__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: $additional-font;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+  .about__text {
+    text-align: center;
+    font-family: $additional-font;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
