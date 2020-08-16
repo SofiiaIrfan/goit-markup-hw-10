@@ -1,0 +1,51 @@
+/*common classes (New collection and Featured)*/
+.overlay::before {
+    content: '';
+    display: block;
+    background-color: #737373;
+    width: 255px;
+    height: 282px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+    transform: translateY(100%);
+    transition: tranform $animation-time linear;
+  }
+  
+  .desc-product {
+    display: flex;
+    position: relative;
+  }
+  
+  .desc-product__name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    color: $h3-color;
+    background-color: $h3-background-color;
+    font-family: $main-font;
+    font-size: 18px;
+    line-height: 32px;
+    flex-basis: 200px;
+    height: 40px;
+    padding-left: 10px;
+    transition: background-color $animation-time cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .desc-product__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $price-text-color;
+    background-color: $price-background-color;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    flex-basis: 55px;
+    height: 40px;
+    transition: background-color $animation-time cubic-bezier(0.4, 0, 0.2, 1);
+  }
